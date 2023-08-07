@@ -4,7 +4,11 @@
   "description": "Proyecto de pruebas reto Fi group Harold España",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test_login": "cypress run --spec cypress/e2e/login.cy.js --browser chrome",
+    "test_buy": "cypress run --spec cypress/e2e/buyProduct.cy.js --browser chrome",
+    "test_cart": "cypress run --spec cypress/e2e/shoppingCart.cy.js --browser chrome",
+    "test_networks": "cypress run --spec cypress/e2e/socialNetworks.cy.js --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -18,5 +22,8 @@
   "homepage": "https://github.com/harold759/reto_Automatizacion_FiGroup#readme",
   "dependencies": {
     "cypress": "^12.17.3"
+  },
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.5.1"
   }
 }
