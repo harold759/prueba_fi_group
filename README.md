@@ -1,6 +1,7 @@
 INSTRUCCIONES
 
 Descripcion
+
 Solucion de reto casos de prueba y automatizacion con cypres y generacion de reportes
 
 Requerimientos para correr el proyecto
