@@ -1,0 +1,22 @@
+{
+  "name": "prueba_fi_group",
+  "version": "1.0.0",
+  "description": "Proyecto de pruebas reto Fi group Harold España",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harold759/reto_Automatizacion_FiGroup.git"
+  },
+  "author": "Harold España",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harold759/reto_Automatizacion_FiGroup/issues"
+  },
+  "homepage": "https://github.com/harold759/reto_Automatizacion_FiGroup#readme",
+  "dependencies": {
+    "cypress": "^12.17.3"
+  }
+}
