@@ -1,6 +1,6 @@
-describe("Test Links Social Networks", () => {
+describe("Test Buy a Product", () => {
 
-    it("Link Twiter",() => {
+    it("Buy a product",() => {
 
         cy.visit("https://www.saucedemo.com/")
         cy.get("#user-name").type("standard_user")
