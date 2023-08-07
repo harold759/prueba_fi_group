@@ -15,11 +15,11 @@ Como compilar el proyecto
 2. abrir la carpeta en VScode
 3. correr el comando npm install
 4. Correr los sigientes comandos para cada specs creados y obtener el reporte HTML
-   ° npm run test_login
-   ° npm run test_buy
-   ° npm run test_cart
-   ° npm run test_networks
-   ° npm run test_product
+   - npm run test_login
+   - npm run test_buy
+   - npm run test_cart
+   - npm run test_networks
+   - npm run test_product
 
 5. Para revisar los reportes ingresar en la carpeta del proyecto en la siguiente direccion \prueba_fi_group\cypress\reports\html   y hacer clic en el archivo index.html
 
